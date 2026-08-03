@@ -1,0 +1,18 @@
+# diasable ligatures
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+theme = Dark+
+
+cursor-style = bar
+cursor-style-blink = true
+
+window-theme = ghostty
+
+window-width = 120
+window-height = 32
+window-padding-x = 12
+window-padding-y = 12
+
+keybind = cmd+enter=unbind

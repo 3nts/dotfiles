@@ -1,0 +1,11 @@
+{
+  "env": {
+    "ENABLE_CLAUDEAI_MCP_SERVERS": "false"
+  },
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "effortLevel": "xhigh",
+  "tui": "fullscreen",
+  "theme": "auto"
+}
