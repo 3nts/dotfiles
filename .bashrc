@@ -19,6 +19,9 @@ eval "$(starship init bash)"
 eval "$(direnv hook bash)"
 eval "$(fzf --bash)"
 
+# macOS tiling fixes
+bind '"\e[1;7B": ""'
+
 # shell history configuration must come after hooks;
 # these are not environment variables
 HISTCONTROL=ignoreboth
