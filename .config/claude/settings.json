@@ -2,17 +2,18 @@
   "env": {
     "ENABLE_CLAUDEAI_MCP_SERVERS": "false"
   },
+  "attribution": {
+    "commit": "Co-Authored-By: Claude <noreply@anthropic.com>"
+  },
   "permissions": {
     "defaultMode": "auto"
   },
-  "effortLevel": "xhigh",
-  "tui": "fullscreen",
-  "theme": "auto",
   "statusLine": {
     "type": "command",
     "command": "~/.config/claude/statusline-command.sh"
   },
-  "attribution": {
-    "coAuthoredBy": "Claude"
-  }
+  "effortLevel": "xhigh",
+  "tui": "fullscreen",
+  "theme": "auto",
+  "skipWorkflowUsageWarning": true
 }
