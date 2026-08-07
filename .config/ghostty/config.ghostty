@@ -21,7 +21,3 @@ keybind = shift+enter=text:\x0a
 # linux-friendly navigation
 keybind = ctrl+shift+o=new_split:right
 keybind = ctrl+shift+e=new_split:down
-keybind = ctrl+alt+arrow_up=goto_split:up
-keybind = ctrl+alt+arrow_down=goto_split:down
-keybind = ctrl+alt+arrow_left=goto_split:left
-keybind = ctrl+alt+arrow_right=goto_split:right
