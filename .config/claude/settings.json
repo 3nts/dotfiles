@@ -1,5 +1,6 @@
 {
   "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "opus",
     "ENABLE_CLAUDEAI_MCP_SERVERS": "false"
   },
   "attribution": {
@@ -8,6 +9,7 @@
   "permissions": {
     "defaultMode": "auto"
   },
+  "model": "fable",
   "statusLine": {
     "type": "command",
     "command": "~/.config/claude/statusline-command.sh"
@@ -24,7 +26,12 @@
   "tui": "fullscreen",
   "skipWorkflowUsageWarning": true,
   "theme": "auto",
-  "enabledPlugins": {
-    "marimo-pair@marimo-pair": true
+  "modelSettings": {
+    "claude-fable-5-1": {
+      "effortLevel": "medium"
+    },
+    "claude-opus-5": {
+      "effortLevel": "high"
+    }
   }
 }
