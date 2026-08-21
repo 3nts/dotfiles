@@ -14,11 +14,21 @@
     "type": "command",
     "command": "~/.config/claude/statusline-command.sh"
   },
+  "enabledPlugins": {
+    "marimo-pair@marimo-pair": true,
+    "plannotator@plannotator": true
+  },
   "extraKnownMarketplaces": {
     "marimo-pair": {
       "source": {
         "source": "github",
         "repo": "marimo-team/marimo-pair"
+      }
+    },
+    "plannotator": {
+      "source": {
+        "source": "github",
+        "repo": "backnotprop/plannotator"
       }
     }
   },
