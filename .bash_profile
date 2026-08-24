@@ -24,6 +24,7 @@ export GOPROXY=direct
 export GOSUMDB=off
 
 PATH=$PATH:$HOME/bin
+PATH=$PATH:$HOME/.local/bin
 PATH=$PATH:$GOPATH/bin
 
 PATH=$PATH:'/opt/homebrew/opt/libpq/bin'
