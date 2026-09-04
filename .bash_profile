@@ -25,6 +25,8 @@ export GOSUMDB=off
 PATH=$PATH:$HOME/bin
 PATH=$PATH:$GOPATH/bin
 
+PATH=$PATH:'/opt/homebrew/opt/libpq/bin'
+
 eval "$(/opt/homebrew/bin/brew shellenv bash)"
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
