@@ -1,7 +1,9 @@
+font-family = "0xProto Nerd Font Mono"
+
 # disable ligatures
-font-feature = -calt
-font-feature = -liga
-font-feature = -dlig
+# font-feature = -calt
+# font-feature = -liga
+# font-feature = -dlig
 
 theme = Dark+
 
