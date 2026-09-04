@@ -12,8 +12,19 @@
     "type": "command",
     "command": "~/.config/claude/statusline-command.sh"
   },
+  "extraKnownMarketplaces": {
+    "marimo-pair": {
+      "source": {
+        "source": "github",
+        "repo": "marimo-team/marimo-pair"
+      }
+    }
+  },
   "effortLevel": "xhigh",
   "tui": "fullscreen",
+  "skipWorkflowUsageWarning": true,
   "theme": "auto",
-  "skipWorkflowUsageWarning": true
+  "enabledPlugins": {
+    "marimo-pair@marimo-pair": true
+  }
 }
