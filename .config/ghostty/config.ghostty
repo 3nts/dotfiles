@@ -23,3 +23,5 @@ keybind = shift+enter=text:\x0a
 # linux-friendly navigation
 keybind = ctrl+shift+o=new_split:right
 keybind = ctrl+shift+e=new_split:down
+
+keybind = global:cmd+§=toggle_quick_terminal
